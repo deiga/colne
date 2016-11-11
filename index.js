@@ -19,7 +19,7 @@ server.route({
     console.log(request.payload);
     unirest.post(`https://maker.ifttt.com/trigger/${process.env.EVENT_NAME}/with/key/${process.env.MAKER_KEY}`)
     .headers({'Accept': 'application/json', 'Content-Type': 'application/json'})
-    .send({ "value1": 23, "value2": "bar", "value3": "bz" })
+    .send({ "value1": request.payload.words , "value2": request.payload.body, "value3": request.payload.date })
     .end(function (response) {
       console.log(response.body);
       reply(response.body);
