@@ -4,7 +4,14 @@ const Hapi = require('hapi');
 const unirest = require('unirest');
 
 const server = new Hapi.Server();
-server.connection({ port: 3000 });
+server.connection({ 
+  port: 3000, 
+  routes: { 
+    cors: {
+      additionalHeaders: ['Accept-Language']
+    } 
+  }
+});
 
 server.route({
   method: 'GET',
@@ -12,7 +19,7 @@ server.route({
   handler: function (request, reply) {
     reply('Hello, world!');
   }
-})
+});
 
 server.route({
   method: 'POST',
