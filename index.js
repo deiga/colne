@@ -5,7 +5,7 @@ const unirest = require('unirest');
 
 const server = new Hapi.Server();
 server.connection({ 
-  port: 3000, 
+  port: process.env.PORT, 
   routes: { 
     cors: {
       additionalHeaders: ['Accept-Language']
