@@ -7,6 +7,14 @@ const server = new Hapi.Server();
 server.connection({ port: 3000 });
 
 server.route({
+  method: 'GET',
+  path: '/',
+  handler: function (request, reply) {
+    reply('Hello, world!');
+  }
+})
+
+server.route({
   method: 'POST',
   path: '/750',
   config: {
