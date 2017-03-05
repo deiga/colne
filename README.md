@@ -1,5 +1,7 @@
 # COLNE
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/deiga/colne.svg)](https://greenkeeper.io/)
+
 This is a simple API to forward requests from an [750 Words](http://750words.com/) userscript to [IFTTT](https://ifttt.com/) Maker which in turn sends the data to an archiving solution.
 
 ### Motivation
