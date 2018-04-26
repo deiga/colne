@@ -3,6 +3,7 @@ node_js:
 - '7'
 - '6'
 - '5'
+- '10'
 deploy:
   provider: heroku
   app: powerful-cove-69945
