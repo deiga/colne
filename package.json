@@ -8,7 +8,7 @@
     "unirest": "^0.5.1"
   },
   "devDependencies": {
-    "foreman": "^2.0.0",
+    "foreman": "^3.0.0",
     "nodejs-dashboard": "^0.4.0",
     "nodemon": "^1.11.0"
   },
