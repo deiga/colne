@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "hapi": "^17.0.0",
-    "unirest": "^0.5.1"
+    "unirest": "^0.5.1",
+    "snyk": "^1.85.0"
   },
   "devDependencies": {
     "foreman": "^3.0.0",
@@ -15,7 +16,9 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodejs-dashboard -- nf start -j Procfile.dev",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/deiga/colne/issues"
   },
-  "homepage": "https://github.com/deiga/colne#readme"
+  "homepage": "https://github.com/deiga/colne#readme",
+  "snyk": true
 }
