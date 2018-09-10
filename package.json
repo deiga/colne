@@ -6,7 +6,7 @@
   "dependencies": {
     "hapi": "^17.5.4",
     "unirest": "^0.5.1",
-    "snyk": "^1.85.0"
+    "snyk": "^1.95.3"
   },
   "devDependencies": {
     "foreman": "^3.0.0",
