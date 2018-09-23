@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "hapi": "^17.0.0",
     "unirest": "^0.5.1",
-    "snyk": "^1.83.0"
+    "hapi": "^17.5.4",
+    "snyk": "^1.97.1"
   },
   "devDependencies": {
     "foreman": "^3.0.0",
@@ -19,6 +19,7 @@
     "test": "echo \"Error: no test specified\" && exit 0",
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
