@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "hapi": "^17.5.4",
+    "hapi": "^17.5.5",
     "unirest": "^0.5.1",
     "snyk": "^1.95.3"
   },
