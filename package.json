@@ -18,7 +18,7 @@
     "dev": "nodejs-dashboard -- nf start -j Procfile.dev",
     "test": "echo \"Error: no test specified\" && exit 0",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "repository": {
