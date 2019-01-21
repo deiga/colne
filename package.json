@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "unirest": "^0.5.1",
-    "hapi": "^17.5.4",
+    "hapi": "^18.0.0",
     "snyk": "^1.97.1"
   },
   "devDependencies": {
