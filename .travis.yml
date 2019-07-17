@@ -1,8 +1,9 @@
 language: node_js
 node_js:
-- '7'
+- 'lts/*'
+- '8'
 - '6'
-- '5'
+- 'node'
 deploy:
   provider: heroku
   app: powerful-cove-69945
