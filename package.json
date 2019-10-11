@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "unirest": "^0.6.0",
-    "hapi": "^18.0.1",
-    "snyk": "^1.97.1"
+    "unirest": "0.6.0",
+    "hapi": "18.1.0",
+    "snyk": "1.234.1"
   },
   "devDependencies": {
     "foreman": "3.0.1",
