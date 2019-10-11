@@ -5,8 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "unirest": "0.6.0",
-    "hapi": "18.1.0",
-    "snyk": "1.234.1"
+    "hapi": "18.1.0"
   },
   "devDependencies": {
     "foreman": "3.0.1",
@@ -16,10 +15,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodejs-dashboard -- nf start -j Procfile.dev",
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect",
-    "prepare": "npm run snyk-protect"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
