@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "unirest": "0.6.0",
-    "@hapi/hapi": "18.2.0"
+    "@hapi/hapi": "18.3.2"
   },
   "devDependencies": {
     "foreman": "3.0.1",
