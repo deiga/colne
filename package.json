@@ -5,12 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "unirest": "0.6.0",
-    "@hapi/hapi": "18.2.0"
+    "@hapi/hapi": "18.4.1"
   },
   "devDependencies": {
     "foreman": "3.0.1",
     "nodejs-dashboard": "0.5.1",
-    "nodemon": "2.0.21"
+    "nodemon": "2.0.22"
   },
   "scripts": {
     "start": "node index.js",
