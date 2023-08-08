@@ -1,8 +1,8 @@
 language: node_js
 node_js:
 - 'lts/*'
-- '8'
-- '6'
+- '8.17.0'
+- '6.17.1'
 - 'node'
 deploy:
   provider: heroku
