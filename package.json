@@ -10,7 +10,7 @@
   "devDependencies": {
     "foreman": "3.0.1",
     "nodejs-dashboard": "0.5.1",
-    "nodemon": "3.1.10"
+    "nodemon": "3.1.11"
   },
   "scripts": {
     "start": "node index.js",
